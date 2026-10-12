@@ -262,30 +262,4 @@ for feat, imp in zip(feature_cols, imps): # LOOP 8
 print("\n=== 100% COMPLETE - READY TO SUBMIT ===")
 print("Files: boda_fares_raw.csv, boda_fares_cleaned.csv, sns_analysis.png")
 
-"""
 
-FINAL REPORT 
-Student: Kamwada Musa Hiire - Victoria University,Reg No.VU-BAD-2607-2558-DAY
-GitHub: https://github.com/Kamwada7moses/Boda-Fare-Prediction-Kampala
-
-
-EXECUTIVE SUMMARY:
-Collected 40 boda rides myself, cleaned to 37 rows. DecisionTreeClassifier best depth 4
-accuracy 85%. RandomForest regressor MAE 420 UGX, RMSE/RMSA 510 UGX, R2 0.86.
-
-TASK 1: Transport domain, Wandegeya stage, diary, consent, raw csv evidence.
-
-TASK 2: Before 40 rows missing 1 outlier 1 weather inconsistent. After 37 rows 0 missing
-float64. Custom function clean_distance(), list comprehension 9 times, loops 8 times.
-price_per_km created. Before/after shape proof.
-
-TASK 3: Regression + Classification. Pipeline Raw->Clean->Engineer->Split->Train->Evaluate.
-Custom class BodaFareEngineer. Loop over depths 2-6 to find best. Metrics MAE RMSE/RMSA R2
-Accuracy. Comparison Linear vs Tree vs Forest. Best RandomForest. Limitations small data.
-Prediction function predict_boda_fare() using DecisionTreeClassifier labels Low/Medium/High
-easy to explain. Example 2.5km Morning Sunny = Low = 4000 UGX.
-
-CONCLUSION: All requirements met - own data, custom function, custom class, list comp,
-looping, sns, DecisionTreeClassifier, metrics RMSA, prediction with labels, report.
-
-"""
